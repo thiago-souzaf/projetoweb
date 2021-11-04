@@ -1,0 +1,195 @@
+
+/* PALETA DE CORES QUE EU VOU USAR NO SITE */
+:root{
+    --oxford-blue: #14213dff;
+    --orange-web: #fca311ff;
+    --platinum: #e5e5e5ff;
+}
+/*Estilos das coisas que tem em todas as paginas*/
+body{
+    font-family: 'Righteous', Arial, Helvetica, sans-serif;
+    background-color: var(--oxford-blue);
+    color: var(--orange-web);
+}
+header{
+    background-color: var(--platinum);
+    padding: 1px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+h1{
+    text-align: left;
+    color: var(--oxford-blue);
+    display: inline;
+    margin-left: 40px;
+}
+nav ul{
+    text-align: right;
+    list-style-type: none;
+    margin-top: 23px;
+    
+}
+nav li{
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 25px;
+}
+nav li a{
+    text-decoration: none;
+    color: var(--oxford-blue);
+    transition: 0.3s;
+}
+nav li a:hover{
+color: var(--orange-web);
+text-decoration: underline;
+} 
+
+/*Estilos das coisas que tem na pag inicial*/
+#texto_logo{
+    float: left;
+    max-width: 600pt;
+    width: 90vw;
+    padding-top: 60px;
+    text-align: center;
+}
+p{
+    color: var(--platinum);
+    font-size: 40px;
+}
+
+#logo-cin{
+    min-width: 240pt;
+    width: 40vw;
+    background-color: var(--platinum);
+    border-radius: 50px;
+}
+#laranja{
+    color: var(--orange-web);
+}
+#img_links{
+    padding-top: 60px;
+    float: left;
+    text-align: center;
+    max-width: 300pt;
+    width: 90vw;
+
+}
+#img_links img{
+    width: 350px;
+}
+#links-externos a{
+    color: var(--orange-web);
+    font-size: 70px;
+    text-decoration: none;
+    text-shadow: 5px 5px 5px black;
+    transition: 0.2s;
+}
+#links-externos a:hover{
+    color: white;
+}
+
+/*Estilos das coisas que tem na pag de hobbies*/
+.title-hobbies{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 30px;
+}
+#jogos{
+    text-align: center;
+}
+#jogos img{
+    width: 90vw;
+    max-width: 400pt;
+    border-radius: 40px;
+    border-color: var(--orange-web);
+    border-width: 3px;
+    border-style: dotted;
+    margin-bottom: 5vh;
+    margin-right: 2vw;
+}
+
+
+#teclado{
+    text-align: center;
+}
+#teclado iframe{
+    max-width: 900px;
+    width: 90vw;
+    height: 50vh;
+}
+
+#master-chef{
+    text-align: center;
+}
+#master-chef figcaption{
+    font-size: 20px;
+}
+#master-chef img{
+    max-width: 800pt;
+    width: 80vw;
+    box-shadow: 0px 15vh white;
+}
+
+/*Estilos das coisas que tem na pag de contatos*/
+#contatos{
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    background-color: var(--orange-web);
+    color: var(--oxford-blue);
+    width: 70vw;
+    margin: auto;
+    margin-top: 30pt;
+    border-radius: 30pt;
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
+    padding: 10px;
+}
+#contatos ul{
+    list-style: none;
+
+}
+/*pagina sobre mim*/
+#sobre-mim{
+    padding: 10pt;
+    text-align: justify;
+    width: 60vw;
+    margin: auto;
+    margin-top: 30px;
+    background-color: var(--platinum);
+    border: 5px solid orange;
+    border-radius: 50px;
+    box-shadow: 6px 6px 7px black;
+}
+
+#sobre-mim p{
+    font-size: 17pt;
+    color: var(--oxford-blue);
+}
+#sobre-mim p a{
+    text-decoration: underline;
+    color: var(--oxford-blue)
+}
+#sobre-mim h2{
+    text-align: center;
+    text-shadow: -1px 1px 3px var(--oxford-blue);
+    font-size: 30px;
+}
+#olimpiadas-habilidades{
+margin-left: 10vw;
+}
+
+.infos{
+    float: left;
+    width: 40vw;
+    min-width: 300px;
+    
+}
+
+#olimpiadas-habilidades h3{
+    color: var(--platinum);
+    font-size: 1.5em;
+}
